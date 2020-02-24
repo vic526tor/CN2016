@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1206</width>
+    <height>804</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLineEdit" name="username">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>70</y>
+      <width>181</width>
+      <height>38</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="password">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>70</y>
+      <width>181</width>
+      <height>38</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Username</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>70</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Password</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LoginButton">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>70</y>
+      <width>114</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="RegistrationButton">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>70</y>
+      <width>114</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Register</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LogoutButton">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>70</y>
+      <width>114</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Logout</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="chat_msg">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>670</y>
+      <width>301</width>
+      <height>38</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="private_msg">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>670</y>
+      <width>301</width>
+      <height>38</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ID">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>620</y>
+      <width>301</width>
+      <height>38</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>670</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Message</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>670</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Message</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>620</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Username</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ChatSendButton">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>670</y>
+      <width>114</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Send</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PrivateSendButton">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>670</y>
+      <width>114</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Send</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="KnockingButton">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>620</y>
+      <width>114</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Knocking</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ChatRoom">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>521</width>
+      <height>431</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="PrivateRoom">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>130</y>
+      <width>531</width>
+      <height>431</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ChatUploadButton">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>720</y>
+      <width>114</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Send a File</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PrivateUploadButton">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>720</y>
+      <width>114</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Send a File</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>10</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Port</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Server</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="server">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>10</y>
+      <width>181</width>
+      <height>38</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="port">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>10</y>
+      <width>181</width>
+      <height>38</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ConnectButton">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>10</y>
+      <width>114</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Connect</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>server</tabstop>
+  <tabstop>port</tabstop>
+  <tabstop>ConnectButton</tabstop>
+  <tabstop>username</tabstop>
+  <tabstop>password</tabstop>
+  <tabstop>LoginButton</tabstop>
+  <tabstop>LogoutButton</tabstop>
+  <tabstop>RegistrationButton</tabstop>
+  <tabstop>chat_msg</tabstop>
+  <tabstop>ChatSendButton</tabstop>
+  <tabstop>ChatUploadButton</tabstop>
+  <tabstop>ID</tabstop>
+  <tabstop>KnockingButton</tabstop>
+  <tabstop>private_msg</tabstop>
+  <tabstop>PrivateSendButton</tabstop>
+  <tabstop>PrivateUploadButton</tabstop>
+  <tabstop>ChatRoom</tabstop>
+  <tabstop>PrivateRoom</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
